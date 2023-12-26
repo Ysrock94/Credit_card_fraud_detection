@@ -6,7 +6,9 @@ This project aims to implement various methodologies to detect credit card fraud
 1.No Sampling: Analyzed using five different algorithms (Gradient Boosting, Random Forest, Decision Tree, SVM, Neural Network).
 2.Undersampling: Applied RandomSampler to balance the data before analysis.
 3.Oversampling: Employed SMOTE to oversample the minority class for better model performance.
+
 **Results Summary**
+
 **No Sampling Metrics**
 
 **Gradient Boosting:**
@@ -81,6 +83,7 @@ Recall: 92.86%
 F1 Score: 96.30%
 
 **Oversampling Metrics**
+
 **Gradient Boosting:**
 
 Accuracy: 97.79%
@@ -117,6 +120,7 @@ Recall: 100.00%
 F1 Score: 99.54%
 
 **Analysis and Insights**
+
 1.No Sampling: Models show high accuracy but struggle with recall, indicating challenges in detecting fraud cases.
 2.Undersampling: Improved recall but at the expense of precision. Some models display better recall but compromised precision.
 O3.versampling: Achieved superior recall without compromising precision. Neural Network stands out with perfect recall.
