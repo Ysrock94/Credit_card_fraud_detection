@@ -45,7 +45,8 @@ Accuracy: 99.92%
 Precision: 76.70%
 Recall: 80.61%
 F1 Score: 78.61%
-Undersampling Metrics
+
+**Undersampling Metrics**
 
 **Gradient Boosting:**
 
