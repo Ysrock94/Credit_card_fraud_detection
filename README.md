@@ -1,4 +1,4 @@
-                                                                                        Credit Card Fraud Detection Project
+                                                         Credit Card Fraud Detection Project
 **Overview**
 This project aims to implement various methodologies to detect credit card fraud using highly imbalanced data. The dataset has undergone Principal Component Analysis (PCA) for anonymization purposes. Three different analyses were conducted: one without any sampling, the second using undersampling (RandomSampler), and the third using SMOTE for oversampling.
 
