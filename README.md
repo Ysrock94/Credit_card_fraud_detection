@@ -128,7 +128,18 @@ O3.versampling: Achieved superior recall without compromising precision. Neural 
 **Confusion Matrix Analysis**
 
 1.Oversampling: Neural Network excelled by never misclassifying fraud as non-fraud, crucial for this project's objective.
-2.ROC Curve: AUC value of 0.89 in oversampling indicates a promising performance in distinguishing between classes.
+2.ROC Curve: An AUC (Area Under the ROC Curve) value of 0.89 indicates a relatively good performance of the model in distinguishing between the classes in a binary classification problem.
+
+AUC values range between 0 and 1, with 1 being a perfect classifier that perfectly separates the classes.
+An AUC of 0.89 suggests that the model's predictions are quite good, significantly better than random guessing, as a random classifier would have an AUC of 0.5.
+Generally, the interpretation of AUC values can be as follows:
+
+AUC around 0.5: The model's performance is similar to random guessing.
+AUC between 0.5 and 0.7: The model's performance is poor to fair.
+AUC between 0.7 and 0.9: The model's performance is good.
+AUC above 0.9: The model's performance is excellent.
+An AUC of 0.89 indicates that the model has a strong ability to discriminate between positive and negative classes, although the interpretation might slightly vary depending on the specific context of the problem and the domain. Overall, an AUC of 0.89 is considered a quite good performance for a binary classification model.
+
 
 **Conclusion**
 
