@@ -99,7 +99,7 @@ Accuracy: 99.54% Precision: 99.08% Recall: 100.00% F1 Score: 99.54%
 ## Analysis and Insights
 1. No Sampling: Models show high accuracy but struggle with recall, indicating challenges in detecting fraud cases. 
 2. Undersampling: Improved recall but at the expense of precision. Some models display better recall but compromised precision. 
-3. versampling: Achieved superior recall without compromising precision. Neural Network stands out with perfect recall.
+3. Oversampling: Achieved superior recall without compromising precision. Neural Network stands out with perfect recall.
 ## Confusion Matrix Analysis
 1. Oversampling: Neural Network excelled by never misclassifying fraud as non-fraud, crucial for this project's objective. 
 
